@@ -1,0 +1,23 @@
+id = "anthropic/claude-3.5-sonnet-20240620"
+name = "Anthropic: Claude 3.5 Sonnet (2024-06-20)"
+release_date = "2024-06-19"
+last_updated = "2025-11-02"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 3e-6
+output = 1.5e-5
+cache_read = 3e-7
+cache_write = 3.75e-6
+
+[limit]
+context = 200000
+output = 8192
+
+[modalities]
+input = [ "text", "image",]
+output = [ "text",]

@@ -1,0 +1,21 @@
+id = "openai/gpt-4o-search-preview"
+name = "OpenAI: GPT-4o Search Preview"
+release_date = "2025-03-12"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+open_weights = false
+
+[cost]
+input = 2.5e-6
+output = 1e-5
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

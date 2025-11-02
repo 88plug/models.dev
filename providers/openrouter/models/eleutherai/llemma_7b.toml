@@ -1,0 +1,21 @@
+id = "eleutherai/llemma_7b"
+name = "EleutherAI: Llemma 7b"
+release_date = "2025-04-14"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = false
+open_weights = false
+
+[cost]
+input = 8e-7
+output = 1.2e-6
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

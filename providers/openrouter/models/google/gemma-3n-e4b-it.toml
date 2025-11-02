@@ -1,16 +1,22 @@
-id = "google/gemma-3n-e4b-it:free"
-name = "Gemma 3n E4B IT"
+id = "google/gemma-3n-e4b-it"
+name = "Google: Gemma 3n 4B"
 release_date = "2025-05-20"
-last_updated = "2025-05-20"
-attachment = true
+last_updated = "2025-11-02"
+attachment = false
 reasoning = false
 temperature = true
-knowledge = "2024-10"
 tool_call = false
-open_weights = true
-cost = { input = 0, output = 0 }
-limit = { context = 8192, output = 8192 }
+open_weights = false
+knowledge = "2024-10"
+
+[cost]
+input = 2e-8
+output = 4e-8
+
+[limit]
+context = 32768
+output = 4096
 
 [modalities]
-input = ["text", "image", "audio"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

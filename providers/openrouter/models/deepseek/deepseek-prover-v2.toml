@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-prover-v2"
+name = "DeepSeek: DeepSeek Prover V2"
+release_date = "2025-04-30"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = false
+open_weights = false
+
+[cost]
+input = 5e-7
+output = 2.18e-6
+
+[limit]
+context = 163840
+output = 4096
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

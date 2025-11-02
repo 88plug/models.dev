@@ -1,23 +1,24 @@
-name = "Claude Haiku 3.5"
-release_date = "2024-10-22"
-last_updated = "2024-10-22"
+id = "anthropic/claude-3.5-haiku"
+name = "Anthropic: Claude 3.5 Haiku"
+release_date = "2024-11-03"
+last_updated = "2025-11-02"
 attachment = true
 reasoning = false
 temperature = true
 tool_call = true
-knowledge = "2024-07-31"
 open_weights = false
+knowledge = "2024-07-31"
 
 [cost]
-input = 0.80
-output = 4.00
-cache_read = 0.08
-cache_write = 1.00
+input = 8e-7
+output = 4e-6
+cache_read = 8e-8
+cache_write = 1e-6
 
 [limit]
-context = 200_000
-output = 8_192
+context = 200000
+output = 8192
 
 [modalities]
-input = ["text", "image"]
-output = ["text"]
+input = [ "text", "image",]
+output = [ "text",]

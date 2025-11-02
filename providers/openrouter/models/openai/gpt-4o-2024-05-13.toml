@@ -1,0 +1,21 @@
+id = "openai/gpt-4o-2024-05-13"
+name = "OpenAI: GPT-4o (2024-05-13)"
+release_date = "2024-05-12"
+last_updated = "2025-11-02"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 5e-6
+output = 1.5e-5
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text", "image",]
+output = [ "text",]

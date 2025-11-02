@@ -1,0 +1,21 @@
+id = "shisa-ai/shisa-v2-llama3.3-70b"
+name = "Shisa AI: Shisa V2 Llama 3.3 70B "
+release_date = "2025-04-15"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = false
+open_weights = false
+
+[cost]
+input = 5e-8
+output = 2.2e-7
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

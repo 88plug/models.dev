@@ -1,20 +1,21 @@
-name = "MiniMax-01"
+id = "minimax/minimax-01"
+name = "MiniMax: MiniMax-01"
+release_date = "2025-01-14"
+last_updated = "2025-11-02"
 attachment = true
-reasoning = true         
-tool_call = true
+reasoning = false
 temperature = true
-release_date = "2025-01-15"
-last_updated = "2025-01-15"
-open_weights = true
+tool_call = false
+open_weights = false
 
 [cost]
-input = 0.20
-output = 1.10
+input = 2e-7
+output = 1.1e-6
 
 [limit]
-context = 1_000_000
-output = 1_000_000
+context = 1000192
+output = 1000192
 
 [modalities]
-input = ["text", "image"]
-output = ["text"]
+input = [ "text", "image",]
+output = [ "text",]

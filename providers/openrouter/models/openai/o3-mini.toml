@@ -1,0 +1,23 @@
+id = "openai/o3-mini"
+name = "OpenAI: o3 Mini"
+release_date = "2025-01-31"
+last_updated = "2025-11-02"
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+open_weights = false
+knowledge = "2023-10"
+
+[cost]
+input = 1.1e-6
+output = 4.4e-6
+cache_read = 5.5e-7
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

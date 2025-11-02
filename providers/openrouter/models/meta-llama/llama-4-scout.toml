@@ -1,0 +1,22 @@
+id = "meta-llama/llama-4-scout"
+name = "Meta: Llama 4 Scout"
+release_date = "2025-04-05"
+last_updated = "2025-11-02"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+open_weights = false
+knowledge = "2024-08"
+
+[cost]
+input = 8e-8
+output = 3e-7
+
+[limit]
+context = 327680
+output = 16384
+
+[modalities]
+input = [ "text", "image",]
+output = [ "text",]
