@@ -1,21 +1,22 @@
-name = "GLM 4.5"
-release_date = "2025-07-28"
-last_updated = "2025-07-28"
+id = "z-ai/glm-4.5"
+name = "Z.AI: GLM 4.5"
+release_date = "2025-07-25"
+last_updated = "2025-11-02"
 attachment = false
 reasoning = true
 temperature = true
 tool_call = true
+open_weights = false
 knowledge = "2025-04"
-open_weights = true
 
 [cost]
-input = 0.60
-output = 2.20
+input = 3.5e-7
+output = 1.55e-6
 
 [limit]
-context = 128_000
-output = 96_000
+context = 131072
+output = 131072
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

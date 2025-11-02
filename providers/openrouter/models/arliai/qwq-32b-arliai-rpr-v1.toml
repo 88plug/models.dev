@@ -1,0 +1,21 @@
+id = "arliai/qwq-32b-arliai-rpr-v1"
+name = "ArliAI: QwQ 32B RpR v1"
+release_date = "2025-04-13"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = false
+open_weights = false
+
+[cost]
+input = 3e-8
+output = 1.1e-7
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

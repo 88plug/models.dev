@@ -1,0 +1,21 @@
+id = "microsoft/phi-4-multimodal-instruct"
+name = "Microsoft: Phi 4 Multimodal Instruct"
+release_date = "2025-03-07"
+last_updated = "2025-11-02"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+open_weights = false
+
+[cost]
+input = 5e-8
+output = 1e-7
+
+[limit]
+context = 131072
+output = 4096
+
+[modalities]
+input = [ "text", "image",]
+output = [ "text",]

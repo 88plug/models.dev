@@ -1,21 +1,22 @@
-name = "Qwen3 Coder (exacto)"
-release_date = "2025-07-23"
-last_updated = "2025-07-23"
+id = "qwen/qwen3-coder:exacto"
+name = "Qwen: Qwen3 Coder 480B A35B (exacto)"
+release_date = "2025-07-22"
+last_updated = "2025-11-02"
 attachment = false
-reasoning = false
+reasoning = true
 temperature = true
-knowledge = "2025-04"
 tool_call = true
-open_weights = true
+open_weights = false
+knowledge = "2025-04"
 
 [cost]
-input = 0.38
-output = 1.53
+input = 3.8e-7
+output = 1.53e-6
 
 [limit]
-context = 131_072
-output = 32_768
+context = 262144
+output = 262144
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

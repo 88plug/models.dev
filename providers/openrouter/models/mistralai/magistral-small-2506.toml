@@ -1,0 +1,21 @@
+id = "mistralai/magistral-small-2506"
+name = "Mistral: Magistral Small 2506"
+release_date = "2025-06-10"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 5e-7
+output = 1.5e-6
+
+[limit]
+context = 40000
+output = 40000
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

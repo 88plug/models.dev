@@ -1,0 +1,21 @@
+id = "sao10k/l3-euryale-70b"
+name = "Sao10k: Llama 3 Euryale 70B v2.1"
+release_date = "2024-06-17"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 1.48e-6
+output = 1.48e-6
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

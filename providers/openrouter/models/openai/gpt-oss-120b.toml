@@ -1,20 +1,21 @@
-name = "GPT OSS 120B"
+id = "openai/gpt-oss-120b"
+name = "OpenAI: gpt-oss-120b"
 release_date = "2025-08-05"
-last_updated = "2025-08-05"
+last_updated = "2025-11-02"
 attachment = false
 reasoning = true
 temperature = true
 tool_call = true
-open_weights = true
+open_weights = false
 
 [cost]
-input = 0.072
-output = 0.28
+input = 4e-8
+output = 4e-7
 
 [limit]
-context = 131_072
-output = 32_768
+context = 131072
+output = 131072
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

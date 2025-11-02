@@ -1,22 +1,24 @@
-name = "Gemini 2.5 Flash Preview 09-25"
+id = "google/gemini-2.5-flash-preview-09-2025"
+name = "Google: Gemini 2.5 Flash Preview 09-2025"
 release_date = "2025-09-25"
-last_updated = "2025-09-25"
+last_updated = "2025-11-02"
 attachment = true
 reasoning = true
 temperature = true
-knowledge = "2025-01"
 tool_call = true
 open_weights = false
+knowledge = "2025-01"
 
 [cost]
-input = 0.30
-output = 2.50
-cache_read = 0.031
+input = 3e-7
+output = 2.5e-6
+cache_read = 7.5e-8
+cache_write = 3.833e-7
 
 [limit]
-context = 1_048_576
-output = 65_536
+context = 1048576
+output = 65536
 
 [modalities]
-input = ["text", "image", "audio", "video", "pdf"]
-output = ["text"]
+input = [ "image", "text", "audio",]
+output = [ "text",]

@@ -1,23 +1,24 @@
-name = "Grok 3 Mini"
-release_date = "2025-02-17"
-last_updated = "2025-02-17"
+id = "x-ai/grok-3-mini"
+name = "xAI: Grok 3 Mini"
+release_date = "2025-06-10"
+last_updated = "2025-11-02"
 attachment = false
 reasoning = true
 temperature = true
-knowledge = "2024-11"
 tool_call = true
 open_weights = false
+knowledge = "2024-11"
 
 [cost]
-input = 0.30
-output = 0.50
-cache_read = 0.075
-cache_write = 0.50
+input = 3e-7
+output = 5e-7
+cache_read = 7.5e-8
+cache_write = 0.5
 
 [limit]
-context = 131_072
-output = 8_192
+context = 131072
+output = 4096
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

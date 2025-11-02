@@ -1,0 +1,21 @@
+id = "relace/relace-apply-3"
+name = "Relace: Relace Apply 3"
+release_date = "2025-09-26"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+open_weights = false
+
+[cost]
+input = 8.5e-7
+output = 1.25e-6
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

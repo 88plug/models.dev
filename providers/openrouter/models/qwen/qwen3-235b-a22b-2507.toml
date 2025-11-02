@@ -1,0 +1,21 @@
+id = "qwen/qwen3-235b-a22b-2507"
+name = "Qwen: Qwen3 235B A22B Instruct 2507"
+release_date = "2025-07-21"
+last_updated = "2025-11-02"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 8e-8
+output = 5.5e-7
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

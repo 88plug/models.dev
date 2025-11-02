@@ -1,16 +1,22 @@
-id = "deepseek/deepseek-r1-distill-llama-70b:free"
-name = "DeepSeek R1 Distill Llama 70B"
+id = "deepseek/deepseek-r1-distill-llama-70b"
+name = "DeepSeek: R1 Distill Llama 70B"
 release_date = "2025-01-23"
-last_updated = "2025-01-23"
+last_updated = "2025-11-02"
 attachment = false
 reasoning = true
 temperature = true
+tool_call = true
+open_weights = false
 knowledge = "2024-10"
-tool_call = false
-open_weights = true
-cost = { input = 0, output = 0 }
-limit = { context = 8192, output = 8192 }
+
+[cost]
+input = 3e-8
+output = 1.3e-7
+
+[limit]
+context = 131072
+output = 131072
 
 [modalities]
-input = ["text"]
-output = ["text"]
+input = [ "text",]
+output = [ "text",]

@@ -1,23 +1,24 @@
-name = "Grok 4 Fast"
-release_date = "2025-08-19"
-last_updated = "2025-08-19"
-attachment = false
+id = "x-ai/grok-4-fast"
+name = "xAI: Grok 4 Fast"
+release_date = "2025-09-18"
+last_updated = "2025-11-02"
+attachment = true
 reasoning = true
 temperature = true
-knowledge = "2024-11"
 tool_call = true
 open_weights = false
+knowledge = "2024-11"
 
 [cost]
-input = 0.20
-output = 0.50
-cache_read = 0.05
+input = 2e-7
+output = 5e-7
+cache_read = 5e-8
 cache_write = 0.05
 
 [limit]
-context = 2_000_000
-output = 30_000
+context = 2000000
+output = 30000
 
 [modalities]
-input = ["text", "image"]
-output = ["text"]
+input = [ "text", "image",]
+output = [ "text",]
