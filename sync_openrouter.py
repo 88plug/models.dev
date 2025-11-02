@@ -87,6 +87,7 @@ def create_model_toml(model):
         'temperature': has_temperature,
         'tool_call': has_tools,
         'open_weights': is_open_weights,
+        # knowledge field omitted by default (only added if exists in existing file)
         'cost': cost_data,
         'limit': {
             'context': context_length,
@@ -129,10 +130,13 @@ def sync_models():
         toml_data = create_model_toml(model)
 
         # PRESERVE manually-curated fields (grandfather them)
-        PRESERVE_FIELDS = ['knowledge', 'status']
-        for field in PRESERVE_FIELDS:
-            if field in existing_data:
-                toml_data[field] = existing_data[field]
+        # Only preserve knowledge if it exists and is not empty
+        if 'knowledge' in existing_data and existing_data['knowledge']:
+            toml_data['knowledge'] = existing_data['knowledge']
+
+        # Preserve status field if it exists
+        if 'status' in existing_data:
+            toml_data['status'] = existing_data['status']
 
         # PRESERVE cost subfields not provided by API
         if 'cost' in existing_data:
