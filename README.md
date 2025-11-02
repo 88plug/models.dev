@@ -122,6 +122,57 @@ output = ["text"]           # Supported output modalities
 3. Add your provider and/or model files
 4. Open a PR with a clear description
 
+### Syncing OpenRouter Models (Automated)
+
+For OpenRouter models, we maintain an automated sync script that fetches the latest models directly from the OpenRouter API. This ensures accuracy and reduces manual maintenance.
+
+#### Prerequisites
+
+```bash
+pip install requests toml
+```
+
+#### Usage
+
+From the repository root:
+
+```bash
+python3 sync_openrouter.py
+```
+
+This will:
+- Fetch all current models from OpenRouter API
+- Create/update TOML files in `providers/openrouter/models/`
+- Remove models that no longer exist in the API
+- Automatically handle schema compliance:
+  - Convert pricing strings to numbers
+  - Filter modalities to allowed values
+  - Detect attachment support (image/file inputs)
+  - Detect reasoning capability from supported parameters
+  - Extract accurate release dates from API timestamps
+  - Include cache pricing when available
+
+#### What Gets Synced
+
+The script automatically extracts and formats:
+- **Model metadata**: ID, name, release date
+- **Capabilities**: attachment, reasoning, tool calling, temperature
+- **Pricing**: input/output costs, cache read/write costs
+- **Limits**: context window, max output tokens
+- **Modalities**: filtered to schema-allowed values (text, audio, image, video, pdf)
+- **Open weights**: detected from Hugging Face ID + free pricing
+
+#### When to Use
+
+- **Regular maintenance**: Run periodically to keep OpenRouter models up to date
+- **New model releases**: When OpenRouter announces new models
+- **Pricing updates**: When OpenRouter updates pricing
+- **After schema changes**: To ensure all models comply with new schema requirements
+
+#### Note
+
+The sync script is maintained on the `dev` branch and should not be included in model update PRs. Only commit the generated model TOML files.
+
 ### Validation
 
 There's a GitHub Action that will automatically validate your submission against our schema to ensure:
