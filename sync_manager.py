@@ -101,6 +101,78 @@ class OllamaSync(BaseSyncHandler):
             }
 
 
+class AnthropicSync(BaseSyncHandler):
+    """Anthropic sync handler"""
+    
+    async def sync_models(self, dry_run: bool = False) -> Dict:
+        """Sync Anthropic models by running the existing script"""
+        import subprocess
+        
+        try:
+            result = subprocess.run(
+                [sys.executable, "sync_anthropic.py"],
+                capture_output=True, text=True
+            )
+            
+            if result.returncode == 0:
+                # Count updated models from output
+                lines = result.stdout.strip().split('\n')
+                updated_count = len([line for line in lines if line.startswith("Updated providers/")])
+                
+                return {
+                    "success": True,
+                    "models_updated": updated_count,
+                    "output": result.stdout
+                }
+            else:
+                return {
+                    "success": False,
+                    "error": result.stderr,
+                    "output": result.stdout
+                }
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e)
+            }
+
+
+class OpenAISync(BaseSyncHandler):
+    """OpenAI sync handler"""
+    
+    async def sync_models(self, dry_run: bool = False) -> Dict:
+        """Sync OpenAI models by running the existing script"""
+        import subprocess
+        
+        try:
+            result = subprocess.run(
+                [sys.executable, "sync_openai.py"],
+                capture_output=True, text=True
+            )
+            
+            if result.returncode == 0:
+                # Count updated models from output
+                lines = result.stdout.strip().split('\n')
+                updated_count = len([line for line in lines if line.startswith("Updated providers/")])
+                
+                return {
+                    "success": True,
+                    "models_updated": updated_count,
+                    "output": result.stdout
+                }
+            else:
+                return {
+                    "success": False,
+                    "error": result.stderr,
+                    "output": result.stdout
+                }
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e)
+            }
+
+
 class ProviderSyncManager:
     """Manages synchronization of multiple AI model providers"""
     
@@ -108,7 +180,9 @@ class ProviderSyncManager:
         self.providers_dir = Path(providers_dir)
         self.sync_handlers = {
             "openrouter": OpenRouterSync(providers_dir),
-            "ollama": OllamaSync(providers_dir)
+            "ollama": OllamaSync(providers_dir),
+            "anthropic": AnthropicSync(providers_dir),
+            "openai": OpenAISync(providers_dir)
         }
     
     async def sync_all_providers(self, dry_run: bool = False) -> Dict[str, Dict]:

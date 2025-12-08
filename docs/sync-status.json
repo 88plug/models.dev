@@ -1,0 +1,22 @@
+{
+  "openrouter": {
+    "models_count": 339,
+    "last_sync": "72b1e42",
+    "sync_handler": "OpenRouterSync"
+  },
+  "ollama": {
+    "models_count": 20,
+    "last_sync": "7177afb",
+    "sync_handler": "OllamaSync"
+  },
+  "anthropic": {
+    "models_count": 8,
+    "last_sync": "db48a88",
+    "sync_handler": "AnthropicSync"
+  },
+  "openai": {
+    "models_count": 10,
+    "last_sync": "db48a88",
+    "sync_handler": "OpenAISync"
+  }
+}
