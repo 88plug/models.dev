@@ -1,7 +1,7 @@
 id = "mancer/weaver"
 name = "Mancer: Weaver (alpha)"
-release_date = "2023-08-01"
-last_updated = "2025-11-02"
+release_date = "2023-08-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

@@ -1,7 +1,7 @@
 id = "qwen/qwen3-vl-8b-instruct"
 name = "Qwen: Qwen3 VL 8B Instruct"
 release_date = "2025-10-14"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true
@@ -9,8 +9,8 @@ tool_call = true
 open_weights = false
 
 [cost]
-input = 8e-8
-output = 5e-7
+input = 6.4e-8
+output = 4e-7
 
 [limit]
 context = 131072

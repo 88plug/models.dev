@@ -1,7 +1,7 @@
 id = "ibm-granite/granite-4.0-h-micro"
 name = "IBM: Granite 4.0 Micro"
-release_date = "2025-10-19"
-last_updated = "2025-11-02"
+release_date = "2025-10-20"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

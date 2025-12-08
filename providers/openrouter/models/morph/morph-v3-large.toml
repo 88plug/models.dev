@@ -1,7 +1,7 @@
 id = "morph/morph-v3-large"
 name = "Morph: Morph V3 Large"
 release_date = "2025-07-07"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

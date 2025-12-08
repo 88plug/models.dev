@@ -1,7 +1,7 @@
 id = "openai/o3-deep-research"
 name = "OpenAI: o3 Deep Research"
 release_date = "2025-10-10"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = true
 temperature = true

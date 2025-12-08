@@ -1,7 +1,7 @@
 id = "z-ai/glm-4.5-air"
 name = "Z.AI: GLM 4.5 Air"
 release_date = "2025-07-25"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -10,8 +10,8 @@ open_weights = false
 knowledge = "2025-04"
 
 [cost]
-input = 1.3e-7
-output = 8.5e-7
+input = 1.04e-7
+output = 6.8e-7
 
 [limit]
 context = 131072

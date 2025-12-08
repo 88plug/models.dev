@@ -1,7 +1,7 @@
 id = "qwen/qwen-vl-plus"
 name = "Qwen: Qwen VL Plus"
-release_date = "2025-02-04"
-last_updated = "2025-11-02"
+release_date = "2025-02-05"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

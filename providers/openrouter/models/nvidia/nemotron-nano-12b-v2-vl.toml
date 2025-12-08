@@ -1,7 +1,7 @@
 id = "nvidia/nemotron-nano-12b-v2-vl"
 name = "NVIDIA: Nemotron Nano 12B 2 VL"
 release_date = "2025-10-28"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = true
 temperature = true
@@ -17,5 +17,5 @@ context = 131072
 output = 4096
 
 [modalities]
-input = [ "image", "text",]
+input = [ "image", "text", "video",]
 output = [ "text",]

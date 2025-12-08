@@ -1,7 +1,7 @@
 id = "openai/o1-pro"
 name = "OpenAI: o1-pro"
 release_date = "2025-03-19"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = true
 temperature = false

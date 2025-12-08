@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-chat-v3-0324"
 name = "DeepSeek: DeepSeek V3 0324"
 release_date = "2025-03-24"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2024-10"
 
 [cost]
-input = 2.4e-7
-output = 8.4e-7
+input = 1.5e-7
+output = 7e-7
 
 [limit]
-context = 163840
-output = 163840
+context = 8192
+output = 7168
 
 [modalities]
 input = [ "text",]

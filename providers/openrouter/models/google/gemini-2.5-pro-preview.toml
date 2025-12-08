@@ -1,7 +1,7 @@
 id = "google/gemini-2.5-pro-preview"
 name = "Google: Gemini 2.5 Pro Preview 06-05"
 release_date = "2025-06-05"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = true
 temperature = true

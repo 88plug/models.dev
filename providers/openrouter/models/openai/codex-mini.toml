@@ -1,7 +1,7 @@
 id = "openai/codex-mini"
 name = "OpenAI: Codex Mini"
 release_date = "2025-05-16"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = true
 temperature = false

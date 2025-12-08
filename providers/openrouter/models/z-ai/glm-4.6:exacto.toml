@@ -1,7 +1,7 @@
 id = "z-ai/glm-4.6:exacto"
 name = "Z.AI: GLM 4.6 (exacto)"
 release_date = "2025-09-30"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -10,9 +10,9 @@ open_weights = false
 knowledge = "2025-09"
 
 [cost]
-input = 4.5e-7
-output = 1.9e-6
-cache_read = 0.11
+input = 4.3e-7
+output = 1.75e-6
+cache_read = 7.99999993e-8
 
 [limit]
 context = 202752

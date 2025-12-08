@@ -1,7 +1,7 @@
 id = "openrouter/auto"
 name = "Auto Router"
-release_date = "2023-11-07"
-last_updated = "2025-11-02"
+release_date = "2023-11-08"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = false

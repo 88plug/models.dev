@@ -1,7 +1,7 @@
 id = "x-ai/grok-3-beta"
 name = "xAI: Grok 3 Beta"
-release_date = "2025-04-09"
-last_updated = "2025-11-02"
+release_date = "2025-04-10"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

@@ -1,7 +1,7 @@
 id = "mistralai/pixtral-12b"
 name = "Mistral: Pixtral 12B"
-release_date = "2024-09-09"
-last_updated = "2025-11-02"
+release_date = "2024-09-10"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

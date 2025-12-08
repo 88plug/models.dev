@@ -1,7 +1,7 @@
 id = "mistralai/mistral-medium-3"
 name = "Mistral: Mistral Medium 3"
 release_date = "2025-05-07"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

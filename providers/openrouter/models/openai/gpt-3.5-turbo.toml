@@ -1,7 +1,7 @@
 id = "openai/gpt-3.5-turbo"
 name = "OpenAI: GPT-3.5 Turbo"
-release_date = "2023-05-27"
-last_updated = "2025-11-02"
+release_date = "2023-05-28"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

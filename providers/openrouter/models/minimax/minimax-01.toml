@@ -1,7 +1,7 @@
 id = "minimax/minimax-01"
 name = "MiniMax: MiniMax-01"
-release_date = "2025-01-14"
-last_updated = "2025-11-02"
+release_date = "2025-01-15"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

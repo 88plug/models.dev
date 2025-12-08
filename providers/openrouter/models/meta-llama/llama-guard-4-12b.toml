@@ -1,7 +1,7 @@
 id = "meta-llama/llama-guard-4-12b"
 name = "Meta: Llama Guard 4 12B"
-release_date = "2025-04-29"
-last_updated = "2025-11-02"
+release_date = "2025-04-30"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

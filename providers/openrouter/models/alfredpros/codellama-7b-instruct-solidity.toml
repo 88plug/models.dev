@@ -1,7 +1,7 @@
 id = "alfredpros/codellama-7b-instruct-solidity"
 name = "AlfredPros: CodeLLaMa 7B Instruct Solidity"
 release_date = "2025-04-14"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

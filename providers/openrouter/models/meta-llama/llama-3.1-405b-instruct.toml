@@ -1,7 +1,7 @@
 id = "meta-llama/llama-3.1-405b-instruct"
 name = "Meta: Llama 3.1 405B Instruct"
-release_date = "2024-07-22"
-last_updated = "2025-11-02"
+release_date = "2024-07-23"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2023-12"
 
 [cost]
-input = 8e-7
-output = 8e-7
+input = 3.5e-6
+output = 3.5e-6
 
 [limit]
-context = 32768
-output = 16384
+context = 130815
+output = 4096
 
 [modalities]
 input = [ "text",]

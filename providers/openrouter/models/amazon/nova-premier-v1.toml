@@ -1,7 +1,7 @@
 id = "amazon/nova-premier-v1"
 name = "Amazon: Nova Premier 1.0"
 release_date = "2025-10-31"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true

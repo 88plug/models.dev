@@ -1,7 +1,7 @@
 id = "qwen/qwen3-30b-a3b-thinking-2507"
 name = "Qwen: Qwen3 30B A3B Thinking 2507"
 release_date = "2025-08-28"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2025-04"
 
 [cost]
-input = 9e-8
-output = 3e-7
+input = 5.1e-8
+output = 3.4e-7
 
 [limit]
-context = 262144
-output = 131072
+context = 32768
+output = 4096
 
 [modalities]
 input = [ "text",]

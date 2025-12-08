@@ -1,7 +1,7 @@
 id = "mistralai/mistral-small-3.1-24b-instruct"
 name = "Mistral: Mistral Small 3.1 24B"
 release_date = "2025-03-17"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2024-10"
 
 [cost]
-input = 5e-8
-output = 1e-7
+input = 3e-8
+output = 1.1e-7
 
 [limit]
-context = 128000
-output = 4096
+context = 131072
+output = 131072
 
 [modalities]
 input = [ "text", "image",]

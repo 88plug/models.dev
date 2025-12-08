@@ -1,7 +1,7 @@
 id = "google/gemma-3-27b-it"
 name = "Google: Gemma 3 27B"
-release_date = "2025-03-11"
-last_updated = "2025-11-02"
+release_date = "2025-03-12"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2024-08"
 
 [cost]
-input = 9e-8
-output = 1.6e-7
+input = 3e-8
+output = 1.1e-7
 
 [limit]
-context = 131072
-output = 16384
+context = 96000
+output = 96000
 
 [modalities]
 input = [ "text", "image",]

@@ -1,7 +1,7 @@
 id = "qwen/qwen-max"
 name = "Qwen: Qwen-Max "
 release_date = "2025-02-01"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

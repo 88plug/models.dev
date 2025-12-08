@@ -1,7 +1,7 @@
 id = "nvidia/llama-3.1-nemotron-ultra-253b-v1"
 name = "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1"
 release_date = "2025-04-08"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true

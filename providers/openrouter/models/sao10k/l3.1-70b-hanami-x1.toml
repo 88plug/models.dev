@@ -1,7 +1,7 @@
 id = "sao10k/l3.1-70b-hanami-x1"
 name = "Sao10K: Llama 3.1 70B Hanami x1"
-release_date = "2025-01-07"
-last_updated = "2025-11-02"
+release_date = "2025-01-08"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

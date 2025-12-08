@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-v3.1-terminus:exacto"
 name = "DeepSeek: DeepSeek V3.1 Terminus (exacto)"
 release_date = "2025-09-22"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -10,12 +10,13 @@ open_weights = false
 knowledge = "2025-07"
 
 [cost]
-input = 2.7e-7
-output = 1e-6
+input = 2.1e-7
+output = 7.9e-7
+cache_read = 1.68e-7
 
 [limit]
-context = 131072
-output = 65536
+context = 163840
+output = 4096
 
 [modalities]
 input = [ "text",]

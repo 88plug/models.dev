@@ -1,7 +1,7 @@
 id = "qwen/qwen3-vl-30b-a3b-instruct"
 name = "Qwen: Qwen3 VL 30B A3B Instruct"
-release_date = "2025-10-06"
-last_updated = "2025-11-02"
+release_date = "2025-10-07"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true
@@ -9,12 +9,12 @@ tool_call = true
 open_weights = false
 
 [cost]
-input = 1.5e-7
-output = 6e-7
+input = 1.4e-7
+output = 1e-6
 
 [limit]
-context = 0
-output = 4000
+context = 131072
+output = 131072
 
 [modalities]
 input = [ "text", "image",]

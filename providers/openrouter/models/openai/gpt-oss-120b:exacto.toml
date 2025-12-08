@@ -1,7 +1,7 @@
 id = "openai/gpt-oss-120b:exacto"
 name = "OpenAI: gpt-oss-120b (exacto)"
 release_date = "2025-08-05"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -9,8 +9,8 @@ tool_call = true
 open_weights = false
 
 [cost]
-input = 5e-8
-output = 2.4e-7
+input = 3.9e-8
+output = 1.9e-7
 
 [limit]
 context = 131072

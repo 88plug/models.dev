@@ -1,7 +1,7 @@
 id = "google/gemini-2.0-flash-lite-001"
 name = "Google: Gemini 2.0 Flash Lite"
 release_date = "2025-02-25"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = true
 reasoning = false
 temperature = true
@@ -17,5 +17,5 @@ context = 1048576
 output = 8192
 
 [modalities]
-input = [ "text", "image", "audio",]
+input = [ "text", "image", "audio", "video",]
 output = [ "text",]

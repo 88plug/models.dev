@@ -1,7 +1,7 @@
 id = "alpindale/goliath-120b"
 name = "Goliath 120B"
-release_date = "2023-11-09"
-last_updated = "2025-11-02"
+release_date = "2023-11-10"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true
@@ -9,12 +9,12 @@ tool_call = false
 open_weights = false
 
 [cost]
-input = 4e-6
-output = 5.5e-6
+input = 6e-6
+output = 8e-6
 
 [limit]
 context = 6144
-output = 512
+output = 1024
 
 [modalities]
 input = [ "text",]

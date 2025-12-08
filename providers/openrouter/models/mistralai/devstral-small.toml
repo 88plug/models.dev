@@ -1,7 +1,7 @@
 id = "mistralai/devstral-small"
 name = "Mistral: Devstral Small 1.1"
 release_date = "2025-07-10"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

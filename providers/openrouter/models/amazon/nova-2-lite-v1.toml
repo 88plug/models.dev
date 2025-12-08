@@ -1,0 +1,21 @@
+id = "amazon/nova-2-lite-v1"
+name = "Amazon: Nova 2 Lite"
+release_date = "2025-12-02"
+last_updated = "2025-12-08"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+
+[cost]
+input = 3e-7
+output = 2.5e-6
+
+[limit]
+context = 1000000
+output = 65535
+
+[modalities]
+input = [ "text", "image", "video",]
+output = [ "text",]

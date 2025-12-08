@@ -1,7 +1,7 @@
 id = "cohere/command-a"
 name = "Cohere: Command A"
 release_date = "2025-03-13"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

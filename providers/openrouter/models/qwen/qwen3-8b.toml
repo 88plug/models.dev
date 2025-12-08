@@ -1,7 +1,7 @@
 id = "qwen/qwen3-8b"
 name = "Qwen: Qwen3 8B"
 release_date = "2025-04-28"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
@@ -9,8 +9,8 @@ tool_call = true
 open_weights = false
 
 [cost]
-input = 3.5e-8
-output = 1.38e-7
+input = 2.8e-8
+output = 1.104e-7
 
 [limit]
 context = 128000

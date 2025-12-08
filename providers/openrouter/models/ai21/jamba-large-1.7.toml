@@ -1,7 +1,7 @@
 id = "ai21/jamba-large-1.7"
 name = "AI21: Jamba Large 1.7"
 release_date = "2025-08-08"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true

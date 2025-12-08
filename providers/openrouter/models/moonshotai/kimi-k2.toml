@@ -1,7 +1,7 @@
 id = "moonshotai/kimi-k2"
 name = "MoonshotAI: Kimi K2 0711"
 release_date = "2025-07-11"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = false
 temperature = true
@@ -10,12 +10,12 @@ open_weights = false
 knowledge = "2024-10"
 
 [cost]
-input = 1.4e-7
-output = 2.49e-6
+input = 4.56e-7
+output = 1.84e-6
 
 [limit]
-context = 63000
-output = 63000
+context = 131072
+output = 131072
 
 [modalities]
 input = [ "text",]

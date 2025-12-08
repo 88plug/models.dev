@@ -1,7 +1,7 @@
 id = "x-ai/grok-code-fast-1"
 name = "xAI: Grok Code Fast 1"
 release_date = "2025-08-26"
-last_updated = "2025-11-02"
+last_updated = "2025-12-08"
 attachment = false
 reasoning = true
 temperature = true
