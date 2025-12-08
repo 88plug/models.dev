@@ -1,22 +1,342 @@
 {
-  "openrouter": {
-    "models_count": 339,
-    "last_sync": "72b1e42",
-    "sync_handler": "OpenRouterSync"
-  },
-  "ollama": {
-    "models_count": 20,
-    "last_sync": "7177afb",
-    "sync_handler": "OllamaSync"
-  },
-  "anthropic": {
-    "models_count": 8,
-    "last_sync": "db48a88",
-    "sync_handler": "AnthropicSync"
-  },
-  "openai": {
-    "models_count": 10,
-    "last_sync": "db48a88",
-    "sync_handler": "OpenAISync"
-  }
+  "last_updated": "2025-12-08T17:51:04.058276+00:00",
+  "total_models": 558,
+  "providers": [
+    {
+      "name": "aihubmix",
+      "model_count": 23,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "alibaba",
+      "model_count": 39,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "alibaba-cn",
+      "model_count": 61,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "amazon-bedrock",
+      "model_count": 42,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "anthropic",
+      "model_count": 20,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "azure",
+      "model_count": 26,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "baseten",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "cerebras",
+      "model_count": 4,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "chutes",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "cloudflare-workers-ai",
+      "model_count": 70,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "cortecs",
+      "model_count": 11,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "deepinfra",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "deepseek",
+      "model_count": 2,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "fastrouter",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "fireworks-ai",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "github-copilot",
+      "model_count": 19,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "github-models",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "google",
+      "model_count": 24,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "google-vertex",
+      "model_count": 15,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "google-vertex-anthropic",
+      "model_count": 8,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "groq",
+      "model_count": 9,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "huggingface",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "inception",
+      "model_count": 2,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "inference",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "llama",
+      "model_count": 7,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "lmstudio",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "lucidquery",
+      "model_count": 2,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "mistral",
+      "model_count": 19,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "modelscope",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "moonshotai",
+      "model_count": 3,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "moonshotai-cn",
+      "model_count": 3,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "morph",
+      "model_count": 3,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "nebius",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "nvidia",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "ollama",
+      "model_count": 20,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "openai",
+      "model_count": 32,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "opencode",
+      "model_count": 14,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "openrouter",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "perplexity",
+      "model_count": 4,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "requesty",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "scaleway",
+      "model_count": 13,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "submodel",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "synthetic",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "togetherai",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "upstage",
+      "model_count": 2,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "v0",
+      "model_count": 3,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "venice",
+      "model_count": 13,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "vercel",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "vultr",
+      "model_count": 5,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "wandb",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "xai",
+      "model_count": 20,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "zai",
+      "model_count": 5,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "zai-coding-plan",
+      "model_count": 5,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "zenmux",
+      "model_count": 0,
+      "last_sync": "unknown",
+      "status": "pending"
+    },
+    {
+      "name": "zhipuai",
+      "model_count": 5,
+      "last_sync": "unknown",
+      "status": "synced"
+    },
+    {
+      "name": "zhipuai-coding-plan",
+      "model_count": 5,
+      "last_sync": "unknown",
+      "status": "synced"
+    }
+  ]
 }
