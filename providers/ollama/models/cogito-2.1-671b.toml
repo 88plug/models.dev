@@ -1,0 +1,20 @@
+name = "Cogito 2.1 320B"
+release_date = "2025-11-19"
+last_updated = "2025-12-08"
+attachment = false
+reasoning = false
+temperature = true
+tool_call = true
+open_weights = true
+
+[cost]
+input = 0.0
+output = 0.0
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text",]
+output = [ "text",]

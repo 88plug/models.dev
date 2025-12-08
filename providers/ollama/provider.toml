@@ -1,0 +1,5 @@
+name = "Ollama"
+env = [ "OLLAMA_API_KEY",]
+npm = "@ai-sdk/openai-compatible"
+api = "https://ollama.com/api"
+doc = "https://ollama.com/library"
